@@ -1,0 +1,56 @@
+body{
+    background-color: #F0F2F5;
+}
+
+header#principal {
+    width: 300px;
+    border: 1px solid #ccc;
+    margin: 0px;
+}
+img#meu_perfil{
+    padding: 0px 150px 0px 5px;
+}
+header#principal > img {
+    max-width: 40px;
+    padding: 0px 15px 0px 0px;
+}
+header#chat {
+    max-width: 600px;
+    border: 1px solid #ccc;
+    margin: 0px;
+}
+
+/*img#lupa_chat {
+    float: right;
+    padding-right: 20px;
+}
+img#mais_opcoes_chat {
+    float: right;
+}*/
+
+nav {
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+.whatsapp-container {
+    background-color: white;
+    width: 300px; /* Ajuste o tamanho conforme necessário */
+    height: 500px; /* Ajuste o tamanho conforme necessário */
+    border: 1px solid #ccc;
+    overflow: hidden; /* Esconder o conteúdo que ultrapassa a altura do container */
+  }
+  .chat-list {
+    overflow-y: scroll; /* Adicionar barra de rolagem vertical quando o conteúdo exceder a altura do container */
+    height: 100%;
+  }
+  .chat {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .chat > img {
+    max-width: 50px;
+  }
+  .chat:last-child {
+    border-bottom: none; /* Remover a borda inferior do último item para um visual mais limpo */
+  }
