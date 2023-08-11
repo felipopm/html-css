@@ -35,9 +35,14 @@
         font-size: 3em;
         padding: 30px;
     }
+
+    section.imagem {
+        background-color: gray;
+        width: 700px;
+    }
     section#img01 {
-        /*background-image: url('imagens/background001.jpg');*/
-        background-color: rgb(120, 170, 170);
+        background-image: url('imagens/background001.jpg');
+        /*background-color: rgb(120, 170, 170);*/
     }
     section#img02 {
         background-image: url('imagens/background002.jpg');
