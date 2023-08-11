@@ -6,21 +6,53 @@
 
     body {
         font-family: 'Sriracha', cursive;
+        margin: 0px;
     }
     header {
+        
+        text-align: center;
+        color: white;
+        background-color: black;
+        margin: 0px;
+    }
+    header > h1 {
         font-family: 'Passion One', cursive;
+        margin: 0px;
+        padding: 40px 20px 10px 20px;
+        font-size: 8em;
+        font-weight: normal;
+    }
+    header > p {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 5px 20px 50px 20px;
+    }
+    section {
+        /*background-color: white;*/
+    }
+    section > p {
+        margin: 0px;
+        font-size: 3em;
+        padding: 30px;
     }
     section#img01 {
         /*background-image: url('imagens/background001.jpg');*/
         background-color: rgb(120, 170, 170);
     }
     section#img02 {
-        /*background-image: url('imagens/background002.jpg');*/
-        background-color: bisque;
+        background-image: url('imagens/background002.jpg');
+        /*background-color: bisque;*/
+        padding: 5px;
+        margin: 20px;
     }
-    section {
-        background-color: aquamarine;
-    }
+   
+    
     footer {
         font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+    footer > p {
+        margin: 0px;
     }
